@@ -20,7 +20,7 @@ import type {ProcedureExt} from '../services/procedures/procedures.types';
 import type {ResearchExt} from '../services/research/research.types';
 import {Address, Schedule} from '../services/search/search.types';
 import type {VaccinationProtocol} from '../services/vaccination/vaccination.types';
-import {RouterKeys} from './keys';
+import {RouterKeys} from '../keys';
 
 export enum AppointmentServicesType {
   ACTION = 'action',
